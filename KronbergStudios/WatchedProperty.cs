@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class WatchedProperty : System.Attribute
 {
-    public float R = -1;
-    public float G = -1;
-    public float B = -1;
-    public float A = -1;
+    public string TextColor;
+    public string BackgroundColor;
+    public float WarningRangeStart;
+    public float WarningRangeEnd;
 }
 
 public class ExecutableAction : System.Attribute
